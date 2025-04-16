@@ -1,0 +1,147 @@
+-- League of Legends
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'League of Legends', 'Facile', 'Combien de joueurs composent une équipe dans une partie classique de League of Legends ?', '5'),
+(NULL, 'League of Legends', 'Facile', 'Quel est le nom du champion qui crie "Demacia !" ?', 'Garen'),
+(NULL, 'League of Legends', 'Facile', 'Quelle est la ressource principale utilisée par la majorité des champions pour lancer des sorts ?', 'Le mana'),
+(NULL, 'League of Legends', 'Facile', 'Comment s\'appelle la carte principale du mode classique en 5v5 ?', 'La Faille de l\'Invocateur'),
+(NULL, 'League of Legends', 'Facile', 'Quel est le rôle principal d\'un support ?', 'Aider son ADC en lane et vision sur la carte'),
+
+(NULL, 'League of Legends', 'Moyen', 'Quel champion possède une compétence appelée "Shuriken électrocuté" ?', 'Zed'),
+(NULL, 'League of Legends', 'Moyen', 'Comment s\'appelle l\'événement annuel où des équipes du monde entier s\'affrontent ?', 'Les Worlds'),
+(NULL, 'League of Legends', 'Moyen', 'Quel dragon octroie un bonus augmentant la régénération de vie ?', 'Le Dragon des Océans'),
+(NULL, 'League of Legends', 'Moyen', 'Quel est le nom du baron qui apparaît après 20 minutes de jeu ?', 'Baron Nashor'),
+(NULL, 'League of Legends', 'Moyen', 'Quelle est la particularité de Yuumi par rapport aux autres champions ?', 'Elle peut s\'attacher à ses alliés'),
+
+(NULL, 'League of Legends', 'Difficile', 'Quel joueur professionnel est surnommé "The Unkillable Demon King" ?', 'Faker'),
+(NULL, 'League of Legends', 'Difficile', 'Quel champion a été banni le plus souvent en compétitif durant la saison 2023 ?', 'Maokai'),
+(NULL, 'League of Legends', 'Difficile', 'Quel est le véritable nom de Jhin ?', 'Khada Jhin'),
+(NULL, 'League of Legends', 'Difficile', 'Combien de champions étaient disponibles lors de la sortie du jeu en 2009 ?', '40'),
+(NULL, 'League of Legends', 'Difficile', 'Quelle est la signification du terme "APM" souvent utilisé en e-sport ?', 'Actions Par Minute');
+
+-- Arcane (Netflix Serie)
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Arcane', 'Facile', 'Comment s\'appelle la sœur de Vi ?', 'Jinx'),
+(NULL, 'Arcane', 'Facile', 'Dans quelle ville se déroule l\'histoire principale d\'Arcane ?', 'Piltover'),
+(NULL, 'Arcane', 'Facile', 'Quel scientifique de Piltover développe le Hextech ?', 'Jayce'),
+(NULL, 'Arcane', 'Facile', 'Quel est le nom du gang de Silco ?', 'Les Firelights'),
+(NULL, 'Arcane', 'Facile', 'Quel est l\'animal de compagnie de Heimerdinger ?', 'Un Poro'),
+
+(NULL, 'Arcane', 'Moyen', 'Comment s\'appelle l\'ami d\'enfance de Jinx qui meurt accidentellement ?', 'Milo'),
+(NULL, 'Arcane', 'Moyen', 'Quelle est la drogue utilisée pour rendre les hommes plus puissants ?', 'Le Shimmer'),
+(NULL, 'Arcane', 'Moyen', 'Qui trahit Silco pour s\'allier à Piltover ?', 'Sevika'),
+(NULL, 'Arcane', 'Moyen', 'Quel est le prénom de Vi ?', 'Violet'),
+(NULL, 'Arcane', 'Moyen', 'Dans quelle ville vit Caitlyn ?', 'Piltover'),
+
+(NULL, 'Arcane', 'Difficile', 'Quelle est la dernière image de la série Arcane ?', 'Une roquette tirée par Jinx sur le conseil de Piltover'),
+(NULL, 'Arcane', 'Difficile', 'Quel est le lien entre Singed et Warwick dans l\'univers de League of Legends ?', 'Singed est le créateur de Warwick'),
+(NULL, 'Arcane', 'Difficile', 'Quelle est l\'inspiration principale du style artistique d\'Arcane ?', 'Le mouvement steampunk et l\'animation peinte à la main'),
+(NULL, 'Arcane', 'Difficile', 'Qui est le véritable père de Jinx ?', 'Vander'),
+(NULL, 'Arcane', 'Difficile', 'Quelle est l\'inspiration du design de Zaun ?', 'Les bas-fonds industriels de Londres');
+
+-- Musculation
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Musculation', 'Facile', 'Quel exercice est le plus efficace pour développer les pectoraux ?', 'Le développé couché'),
+(NULL, 'Musculation', 'Facile', 'Quel muscle travaille principalement lors d\'une flexion des bras ?', 'Le biceps'),
+(NULL, 'Musculation', 'Facile', 'Quel est le principal carburant musculaire lors d\'un effort court et intense ?', 'La créatine phosphate'),
+(NULL, 'Musculation', 'Facile', 'Quel est l\'autre nom du squat bulgare ?', 'Le split squat'),
+(NULL, 'Musculation', 'Facile', 'Quel est l\'exercice de base pour renforcer les triceps ?', 'Les dips'),
+
+(NULL, 'Musculation', 'Moyen', 'Quel muscle est principalement sollicité lors des tractions en supination ?', 'Le biceps brachial'),
+(NULL, 'Musculation', 'Moyen', 'Quelle hormone est responsable de la croissance musculaire ?', 'La testostérone'),
+(NULL, 'Musculation', 'Moyen', 'Quel est l\'autre nom des "abdos inférieurs" ?', 'Le grand droit inférieur'),
+(NULL, 'Musculation', 'Moyen', 'Quel est le rôle principal du transverse de l\'abdomen ?', 'Maintenir la posture et stabiliser le tronc'),
+(NULL, 'Musculation', 'Moyen', 'Combien de répétitions sont recommandées pour la force pure ?', '1 à 5 répétitions'),
+
+(NULL, 'Musculation', 'Difficile', 'Quel est le principal facteur de l\'hypertrophie musculaire ?', 'La surcharge progressive'),
+(NULL, 'Musculation', 'Difficile', 'Quelle est la durée idéale de repos entre deux séries pour le gain de masse musculaire ?', '30 à 90 secondes'),
+(NULL, 'Musculation', 'Difficile', 'Comment s\'appelle le syndrome causé par un surentraînement extrême ?', 'Le syndrome de surentraînement'),
+(NULL, 'Musculation', 'Difficile', 'Quel est le rôle du GABA dans la récupération musculaire ?', 'Il favorise la relaxation et le sommeil profond'),
+(NULL, 'Musculation', 'Difficile', 'Quelle molécule inhibe la croissance musculaire et peut être ciblée pour améliorer l\'hypertrophie ?', 'La myostatine');
+
+-- Équipe de France de football (1998 - 2024)
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Facile', 'Qui a marqué le but en or en finale de l\'Euro 2000 ?', 'David Trezeguet'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Facile', 'Quel joueur a inscrit un doublé en finale de la Coupe du Monde 1998 ?', 'Zinedine Zidane'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Facile', 'En quelle année la France a-t-elle remporté sa deuxième Coupe du Monde ?', '2018'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Facile', 'Quel sélectionneur a mené la France au titre mondial en 2018 ?', 'Didier Deschamps'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Facile', 'Quel joueur français a reçu le Ballon d\'Or en 2022 ?', 'Karim Benzema'),
+
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Moyen', 'Quel gardien était titulaire lors de la Coupe du Monde 2006 ?', 'Fabien Barthez'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Moyen', 'Quel joueur français a inscrit un triplé en finale de la Coupe du Monde 2022 ?', 'Kylian Mbappé'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Moyen', 'Quel club formateur a révélé Antoine Griezmann ?', 'Real Sociedad'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Moyen', 'Quel défenseur a marqué un but de la tête contre l\'Allemagne en demi-finale de l\'Euro 2016 ?', 'Samuel Umtiti'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Moyen', 'Quel joueur a remplacé Karim Benzema en équipe de France pour l\'Euro 2016 ?', 'André-Pierre Gignac'),
+
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Difficile', 'Qui était le capitaine de l\'équipe de France lors de la finale de la Coupe du Monde 1998 ?', 'Didier Deschamps'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Difficile', 'Quel joueur a été exclu après un coup de tête en finale de la Coupe du Monde 2006 ?', 'Zinedine Zidane'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Difficile', 'Combien de buts Thierry Henry a-t-il inscrits en équipe de France ?', '51'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Difficile', 'Quel joueur français a marqué contre l\'Argentine en huitième de finale de la Coupe du Monde 2018 ?', 'Benjamin Pavard'),
+(NULL, 'Équipe de France de football (1998 - 2024)', 'Difficile', 'Qui a marqué le but décisif en finale de la Ligue des Nations 2021 ?', 'Kylian Mbappé');
+
+-- Programmation en C
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Programmation en C', 'Facile', 'Quel mot-clé est utilisé pour déclarer une variable entière en C ?', 'int'),
+(NULL, 'Programmation en C', 'Facile', 'Quelle fonction est utilisée pour afficher du texte à l\'écran ?', 'printf'),
+(NULL, 'Programmation en C', 'Facile', 'Quel symbole est utilisé pour commenter une ligne de code en C ?', '//'),
+(NULL, 'Programmation en C', 'Facile', 'Quel est le type de retour par défaut d\'une fonction main() ?', 'int'),
+(NULL, 'Programmation en C', 'Facile', 'Quel fichier standard doit être inclus pour utiliser printf ?', 'stdio.h'),
+
+(NULL, 'Programmation en C', 'Moyen', 'Quel opérateur permet d\'accéder à l\'adresse d\'une variable ?', '&'),
+(NULL, 'Programmation en C', 'Moyen', 'Comment alloue-t-on dynamiquement de la mémoire en C ?', 'malloc'),
+(NULL, 'Programmation en C', 'Moyen', 'Quel est le rôle de la fonction "free()" ?', 'Libérer la mémoire allouée dynamiquement'),
+(NULL, 'Programmation en C', 'Moyen', 'Quelle boucle exécute toujours au moins une itération ?', 'do while'),
+(NULL, 'Programmation en C', 'Moyen', 'Comment déclarer un pointeur sur un entier ?', 'int *ptr;'),
+
+(NULL, 'Programmation en C', 'Difficile', 'Quelle est la principale différence entre malloc et calloc ?', 'calloc initialise la mémoire allouée à 0'),
+(NULL, 'Programmation en C', 'Difficile', 'Quelle fonction permet de copier une chaîne de caractères ?', 'strcpy'),
+(NULL, 'Programmation en C', 'Difficile', 'Comment lire une ligne entière entrée par l\'utilisateur ?', 'fgets'),
+(NULL, 'Programmation en C', 'Difficile', 'Quelle directive de préprocesseur empêche les inclusions multiples d\'un fichier ?', '#ifndef'),
+(NULL, 'Programmation en C', 'Difficile', 'Quelle est la taille d\'un pointeur en mémoire sur une architecture 64 bits ?', '8 octets');
+
+-- Hygiène
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Hygiène', 'Facile', 'Combien de fois faut-il se laver les mains par jour en moyenne ?', '5 à 10 fois'),
+(NULL, 'Hygiène', 'Facile', 'Quel est l\'élément essentiel d\'une bonne hygiène bucco-dentaire ?', 'Le brossage des dents'),
+(NULL, 'Hygiène', 'Facile', 'Combien de temps doit durer un lavage de mains efficace ?', '20 secondes'),
+(NULL, 'Hygiène', 'Facile', 'À quelle fréquence doit-on changer de brosse à dents ?', 'Tous les 3 mois'),
+(NULL, 'Hygiène', 'Facile', 'Quel produit est recommandé pour désinfecter une plaie ?', 'L\'antiseptique'),
+
+(NULL, 'Hygiène', 'Moyen', 'Quelle est la durée minimale recommandée pour se brosser les dents ?', '2 minutes'),
+(NULL, 'Hygiène', 'Moyen', 'Quel est le principal agent actif des savons antibactériens ?', 'Le triclosan'),
+(NULL, 'Hygiène', 'Moyen', 'À quelle température minimale doit-on laver son linge pour éliminer efficacement les bactéries ?', '60°C'),
+(NULL, 'Hygiène', 'Moyen', 'Quelle est la meilleure méthode pour sécher ses mains après lavage ?', 'Avec une serviette propre ou un essuie-tout jetable'),
+(NULL, 'Hygiène', 'Moyen', 'Combien de litres d\'eau utilise-t-on en moyenne pour une douche de 10 minutes ?', '100 litres'),
+
+(NULL, 'Hygiène', 'Difficile', 'Quelle bactérie est souvent responsable des intoxications alimentaires liées à une mauvaise hygiène en cuisine ?', 'Salmonella'),
+(NULL, 'Hygiène', 'Difficile', 'Quel est le pH moyen de la peau humaine ?', '5,5'),
+(NULL, 'Hygiène', 'Difficile', 'Quel ingrédient actif est recommandé pour se laver les mains en cas d\'absence d\'eau et de savon ?', 'Le gel hydroalcoolique contenant au moins 60% d\'alcool'),
+(NULL, 'Hygiène', 'Difficile', 'Pourquoi est-il déconseillé d\'utiliser des cotons-tiges pour nettoyer les oreilles ?', 'Ils poussent le cérumen plus profondément et peuvent causer des bouchons'),
+(NULL, 'Hygiène', 'Difficile', 'Quel est le principal risque pour la santé d\'un manque d\'hygiène bucco-dentaire prolongé ?', 'Les maladies parodontales et la perte des dents');
+
+
+-- Marvel Cinematic Universe
+INSERT INTO `question` (`id_question`, `theme`, `difficulte`, `question`, `reponse`) VALUES 
+(NULL, 'Marvel Cinematic Universe', 'Facile', 'Quel est le nom de l’armure portée par Tony Stark ?', 'Iron Man'),
+(NULL, 'Marvel Cinematic Universe', 'Facile', 'Qui est le roi du Wakanda ?', 'T\'Challa'),
+(NULL, 'Marvel Cinematic Universe', 'Facile', 'Comment s\'appelle le marteau de Thor ?', 'Mjolnir'),
+(NULL, 'Marvel Cinematic Universe', 'Facile', 'Qui est le méchant principal d\'Avengers: Infinity War ?', 'Thanos'),
+(NULL, 'Marvel Cinematic Universe', 'Facile', 'Quel est le nom du super-soldat incarné par Chris Evans ?', 'Captain America'),
+
+(NULL, 'Marvel Cinematic Universe', 'Moyen', 'Quel est le nom du soldat d\'hiver ?', 'Bucky Barnes'),
+(NULL, 'Marvel Cinematic Universe', 'Moyen', 'Qui est le père de Star-Lord ?', 'Ego'),
+(NULL, 'Marvel Cinematic Universe', 'Moyen', 'Quel est le vrai nom de la Sorcière Rouge ?', 'Wanda Maximoff'),
+(NULL, 'Marvel Cinematic Universe', 'Moyen', 'Dans quel film Spider-Man apparaît-il pour la première fois dans le MCU ?', 'Captain America: Civil War'),
+(NULL, 'Marvel Cinematic Universe', 'Moyen', 'Quel personnage devient le nouveau Captain America après Steve Rogers ?', 'Sam Wilson'),
+
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quelle est la dernière phrase prononcée par Tony Stark avant de mourir ?', 'I am Iron Man'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Dans quel film le Gant de l\'Infini apparaît-il pour la première fois ?', 'Thor'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quel est le vrai nom du personnage Mysterio dans Spider-Man: Far From Home ?', 'Quentin Beck'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quel personnage du MCU a tenu à la fois le marteau de Thor et le Gant de l\'Infini ?', 'Captain America'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Dans quelle ville se déroule la bataille finale d’Avengers: Endgame ?', 'New York (via le voyage dans le temps) et au QG des Avengers'),
+
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quelle est la première pierre d\'infinité récupérée par Thanos ?', 'Pierre du Pouvoir'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Dans quel film Doctor Strange apparaît-il pour la première fois ?', 'Doctor Strange'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quel personnage sacrifie sa vie pour obtenir la Pierre de l\'Âme ?', 'Black Widow'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Comment s\'appelle la sœur de Thanos ?', 'Nebula'),
+(NULL, 'Marvel Cinematic Universe', 'Difficile', 'Quel acteur joue Loki ?', 'Tom Hiddleston');
+

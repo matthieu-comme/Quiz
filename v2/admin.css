@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+#setup_container {
+    background-color: powderblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: auto;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+.setup {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border: solid grey 1px;
+    border-radius: 20px;
+    text-align: center;
+}

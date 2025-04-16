@@ -1,0 +1,50 @@
+La F1 de 2018 à aujourd'hui;Facile;Quel constructeur a dominé la Formule 1 en remportant tous les titres constructeurs entre 2014 et 2021 ?;Mercedes
+La F1 de 2018 à aujourd'hui;Facile;Charles Leclerc a remporté son premier Grand Prix pour Ferrari en 2019. Sur quel circuit cela s'est-il produit ?;Spa-Francorchamps (Belgique)
+La F1 de 2018 à aujourd'hui;Facile;Quel pilote a remporté le championnat du monde des pilotes en 2021 après une lutte intense contre Lewis Hamilton lors du dernier Grand Prix de la saison ?;Max Verstappen
+La F1 de 2018 à aujourd'hui;Moyenne;Quel Grand Prix, organisé sur un circuit mythique, a fait son retour au calendrier de la F1 en 2021 après une absence de plusieurs décennies ?;Le Grand Prix des Pays-Bas (Zandvoort)
+La F1 de 2018 à aujourd'hui;Moyenne;En 2022, quel pilote est devenu le coéquipier de Lewis Hamilton chez Mercedes, succédant à Valtteri Bottas ?;George Russell
+La F1 de 2018 à aujourd'hui;Moyenne;Quel constructeur a remporté le championnat des constructeurs pour la saison 2022, marquant la fin de la domination de Mercedes ?;Red Bull Racing
+La F1 de 2018 à aujourd'hui;Difficile;Lors du Grand Prix d’Arabie Saoudite 2021, combien de fois la course a-t-elle été interrompue par un drapeau rouge ?;Deux fois
+La F1 de 2018 à aujourd'hui;Difficile;Max Verstappen a établi un record en 2023 pour le plus grand nombre de victoires consécutives. Combien de victoires a-t-il enchaînées ?;10 victoires consécutives
+La F1 de 2018 à aujourd'hui;Difficile;Lors du Grand Prix de Monaco 2023, quel constructeur a utilisé une livrée spéciale inspirée de ses victoires aux 24 Heures du Mans ?;McLaren
+La vie de Shaq;Facile;Comment s'appellent mes parents ?;David et Karine
+La vie de Shaq;Facile;Quelle est ma première saison classée sur LoL ?;Saison 2
+La vie de Shaq;Facile;Pourquoi on m'appelle Shaq ?;J'avais une pp Shaquille'O Neal pendant un moment
+La vie de Shaq;Moyenne;Combien ai-je de tata du côté maternel ?;4
+La vie de Shaq;Moyenne;Si je suis face à toi, de quel côté vois-tu ma prothèse ?;Gauche
+La vie de Shaq;Moyenne;Quel est mon PPOAT (Plat Préféré Of All Time) ?;Tagliatelles crème fraiche champignon et poulet
+La vie de Shaq;Difficile;En quelle année mes parents se sont-ils séparés ? (0.5 pt bonus avec le mois);(juin) 2007
+La vie de Shaq;Difficile;Quelle est la communauté que je détestais le plus au collège ?;Les turcs
+La vie de Shaq;Difficile;Qui m'a initié à l'Arcane obscure de la pornographie ?;Christopher
+Ark: Survival Evolved;Facile;Dans Ark: Survival Evolved, quel outil de base est utilisé pour récolter du bois ?;La hache en pierre
+Ark: Survival Evolved;Facile;Quel dinosaure est souvent utilisé pour récolter des baies en grande quantité ?;Le Tricératops
+Ark: Survival Evolved;Facile;Comment s’appelle l'île principale dans la carte originale du jeu ?;The Island
+Ark: Survival Evolved;Moyenne;Quel objet est nécessaire pour apprivoiser un Argentavis plus rapidement ?;Le Kibble (œuf de Stego)
+Ark: Survival Evolved;Moyenne;Quelle ressource spéciale est récoltée sur le dos des Ankylosaurus dans les grottes ?;Le cristal
+Ark: Survival Evolved;Moyenne;Comment se nomme la carte introduite en 2019 qui a été créée à l'origine comme un mod par la communauté ?;Valguero
+Ark: Survival Evolved;Difficile;Comment s'appelle le boss final de Ark: Extinction ?;Le Titan King Corrompu
+Ark: Survival Evolved;Difficile;Quel est le nom du biome souterrain où résident les créatures bioluminescentes dans la carte Aberration ?;Le Biome Lumineux
+Ark: Survival Evolved;Difficile;Quelle ressource est nécessaire pour activer l'Obélisque et accéder au boss de The Island ?;Les artefacts
+Culture G;Difficile;Quel est le plus grand désert chaud de la Terre ?;Le désert du Sahara
+Culture G;Difficile;Quel écrivain a créé le personnage de Sherlock Holmes ?;Arthur Conan Doyle
+Culture G;Difficile;Quel est le nom de la première civilisation connue de l’Histoire ?;Les Sumériens
+Culture G;Difficile;Quel est le plus grand pays du monde en superficie ?;La Russie
+Culture G;Difficile;Quelle unité est utilisée pour mesurer l’intensité d’un courant électrique ?;L’ampère
+Question Vitesse !;Buzzer;Numéro 1;...
+Question Vitesse !;Buzzer;Numéro 2;...
+Question Vitesse !;Buzzer;Numéro 3;...
+Question Vitesse !;Buzzer;Numéro 4;...
+Question Vitesse !;Buzzer;Numéro 5;...
+Question Vitesse !;Buzzer;Numéro 6;...
+Question Vitesse !;Buzzer;Numéro 7;...
+Question Vitesse !;Buzzer;Numéro 8;...
+Question Vitesse !;Buzzer;Numéro 9;...
+Question Vitesse !;Buzzer;Numéro 10;...
+Blind Test;10 sec;A;Hava Nagila
+Blind Test;10 sec;B;Get Jinxed
+Blind Test;10 sec;C;Don't Stop Me Now 
+Blind Test;5 sec;D;Bécane
+Blind Test;5 sec;E;Retour vers le Futur
+Blind Test;1 sec;F;Misirlou / Pulp Fiction / Taxi
+Blind Test;1 sec;G;Clash of Clans
+Blind Test;1 sec;H;Crazy Frog - Axel F

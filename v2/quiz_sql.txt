@@ -1,0 +1,8 @@
+CREATE TABLE question (
+id_question INT AUTO_INCREMENT,
+question TEXT NOT NULL,
+reponse TEXT NOT NULL,
+theme VARCHAR(50) NOT NULL,
+difficulte ENUM('Facile', 'Moyen', 'Difficile'),
+CONSTRAINT question_pk PRIMARY KEY(id_question)
+);

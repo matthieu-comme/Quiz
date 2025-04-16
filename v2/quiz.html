@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Le Grand Quiz </title>
+	<meta charset="utf8">
+	<link rel="stylesheet" href="quiz.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="quiz.js"></script>
+</head>
+
+<body>
+	<header>
+		<p>Le Grand Quiz d'Esqueuneur !</p>
+	</header>
+
+	<div id="main">
+		<div id="choix">
+			<p id="tour">Ici j'affiche le joueur qui doit répondre</p>
+			<button id="affCol">Afficher couleurs</button>
+			<p id="choix_theme">...</p>
+			<p id="choix_question">...</p>
+			<p id="choix_difficulte">...</p>
+			<p id="choix_reponse">...</p>
+			<div>
+				<button id="bouton_reponse">REPONSE</button>
+				<button class="btn_score" id="vrai">VRAI</button>
+				<button class="btn_score" id="faux">FAUX</button>
+			</div>
+
+		</div>
+		<div id="tableau_score">
+			<div id="joueur1">
+				<p class="nom">Joueur 1</p>
+				<p class="score">0</p>
+				<p class="theme_joueur">?</p>
+			</div>
+			<div id="joueur2">
+				<p class="nom">Joueur 2</p>
+				<p class="score">0</p>
+				<p class="theme_joueur">?</p>
+			</div>
+			<div id="joueur3">
+				<p class="nom">Joueur 3</p>
+				<p class="score">0</p>
+				<p class="theme_joueur">?</p>
+			</div>
+			<div id="joueur4">
+				<p class="nom">Joueur 4</p>
+				<p class="score">0</p>
+				<p class="theme_joueur">Theme 4</p>
+			</div>
+			<div id="joueur5">
+				<p class="nom">Joueur 5</p>
+				<p class="score">0</p>
+				<p class="theme_joueur">Theme 5</p>
+			</div>
+		</div>
+
+		<div id="grille">
+
+			<div class="case" id="c1">
+				<p class="numero">1</p>
+				<p class="theme">THEME 1</p>
+				<p class="question">Question 1</p>
+				<p class="difficulte">Moyen 1</p>
+				<p class="reponse">reponse test !</p>
+			</div>
+			<div class="case" id="c2">
+				<p class="numero">2</p>
+				<p class="theme">THEME 2</p>
+				<p class="question">QUESTION 2</p>
+				<p class="difficulte">Moyen 2</p>
+				<p class="reponse">reponse 2</p>
+			</div>
+			<div class="case" id="c3">
+				<p class="numero">3</p>
+				<p class="theme">THEME 3</p>
+				<p class="question">QUESTION 3</p>
+				<p class="difficulte">Moyen 3</p>
+				<p class="reponse">reponse 3</p>
+			</div>
+			<div class="case" id="c4">
+				<p class="numero">4</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION 4</p>
+				<p class="difficulte">Moyen 4</p>
+				<p class="reponse">reponse 4</p>
+			</div>
+			<div class="case" id="c5">
+				<p class="numero">5</p>
+				<p class="theme">THEME 5</p>
+				<p class="question">QUESTION 5</p>
+				<p class="difficulte">Moyen 5</p>
+				<p class="reponse">reponse 5</p>
+			</div>
+			<div class="case" id="c6">
+				<p class="numero">6</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c7">
+				<p class="numero">7</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c8">
+				<p class="numero">8</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c9">
+				<p class="numero">9</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c10">
+				<p class="numero">10</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c11">
+				<p class="numero">11</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c12">
+				<p class="numero">12</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c13">
+				<p class="numero">13</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c14">
+				<p class="numero">14</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c15">
+				<p class="numero">15</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c16">
+				<p class="numero">16</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c17">
+				<p class="numero">17</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c18">
+				<p class="numero">18</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c19">
+				<p class="numero">19</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c20">
+				<p class="numero">20</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c21">
+				<p class="numero">21</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c22">
+				<p class="numero">22</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c23">
+				<p class="numero">23</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c24">
+				<p class="numero">24</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c25">
+				<p class="numero">25</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c26">
+				<p class="numero">26</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c27">
+				<p class="numero">27</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c28">
+				<p class="numero">28</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c29">
+				<p class="numero">29</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c30">
+				<p class="numero">30</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c31">
+				<p class="numero">31</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c32">
+				<p class="numero">32</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c33">
+				<p class="numero">33</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c34">
+				<p class="numero">34</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c35">
+				<p class="numero">35</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c36">
+				<p class="numero">36</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c37">
+				<p class="numero">37</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c38">
+				<p class="numero">38</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c39">
+				<p class="numero">39</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c40">
+				<p class="numero">40</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c41">
+				<p class="numero">41</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c42">
+				<p class="numero">42</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c43">
+				<p class="numero">43</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c44">
+				<p class="numero">44</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c45">
+				<p class="numero">45</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c46">
+				<p class="numero">46</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c47">
+				<p class="numero">47</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c48">
+				<p class="numero">48</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c49">
+				<p class="numero">49</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+			<div class="case" id="c50">
+				<p class="numero">50</p>
+				<p class="theme">THEME</p>
+				<p class="question">QUESTION</p>
+				<p class="difficulte">Moyen</p>
+				<p class="reponse">reponse</p>
+			</div>
+
+		</div>
+		<div id="imageContainer"></div>
+
+
+</body>
+
+</html>
